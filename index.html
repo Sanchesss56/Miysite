@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SuperPsix - Create Amazing Content</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-purple-100">
+    <header class="container mx-auto px-4 py-6 flex justify-between items-center">
+        <div class="flex items-center">
+            <img src="https://via.placeholder.com/40" alt="SuperPsix Logo" class="w-10 h-10 mr-2">
+            <h1 class="text-2xl font-bold text-gray-800">SuperPsix</h1>
+        </div>
+        <nav>
+            <button class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
+                Login
+            </button>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 py-12">
+        <section class="text-center mb-16">
+            <h2 class="text-4xl font-bold mb-4 text-gray-800">
+                Create Amazing Content in Seconds
+            </h2>
+            <p class="text-xl text-gray-600 mb-8">
+                Professional online photo and video editor for bloggers, designers, and marketers
+            </p>
+            
+            <div class="bg-white shadow-2xl rounded-2xl p-6 max-w-2xl mx-auto">
+                <div class="flex justify-center mb-4">
+                    <button class="mx-2 px-4 py-2 bg-blue-500 text-white rounded-lg">
+                        Photo
+                    </button>
+                    <button class="mx-2 px-4 py-2 bg-gray-100 rounded-lg">
+                        Video
+                    </button>
+                </div>
+
+                <div class="border-2 border-dashed border-gray-300 rounded-lg p-6 text-center">
+                    <input type="file" accept="image/*,video/*" class="hidden" id="mediaUpload">
+                    <label for="mediaUpload" class="cursor-pointer flex flex-col items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-400 mb-4">
+                            <path d="M21.2 15.89A5 5 0 1 0 16 10h-1.26a7 7 0 1 0-7.74 8h12.2"></path>
+                            <path d="m8 12 4-4 4 4"></path>
+                            <path d="M12 16V8"></path>
+                        </svg>
+                        <p class="text-gray-600">Upload photo or video</p>
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid md:grid-cols-3 gap-8 mb-16">
+            <div class="bg-white p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition-transform">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-auto text-blue-600 w-12 h-12">
+                    <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"></path>
+                </svg>
+                <h3 class="text-xl font-semibold mt-4 mb-2">Professional Editing</h3>
+                <p class="text-gray-600">Transform photos and videos with intuitive tools</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition-transform">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-auto text-green-600 w-12 h-12">
+                    <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+                    <polyline points="16 6 12 2 8 6"></polyline>
+                    <line x1="12" x2="12" y1="2" y2="15"></line>
+                </svg>
+                <h3 class="text-xl font-semibold mt-4 mb-2">Instant Sharing</h3>
+                <p class="text-gray-600">Share content with a single click across social platforms</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition-transform">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-auto text-purple-600 w-12 h-12">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" x2="12" y1="15" y2="3"></line>
+                </svg>
+                <h3 class="text-xl font-semibold mt-4 mb-2">Fast Download</h3>
+                <p class="text-gray-600">Download media in high quality without losing sharpness</p>
+            </div>
+        </section>
+
+        <section class="text-center bg-white rounded-2xl p-12 shadow-xl">
+            <h2 class="text-3xl font-bold mb-6">Get Started for Free!</h2>
+            <div class="flex justify-center space-x-4">
+                <button class="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
+                    Create Account
+                </button>
+                <button class="px-6 py-3 border-2 border-blue-500 text-blue-500 rounded-lg hover:bg-blue-50">
+                    Demo Version
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4 grid md:grid-cols-4 gap-8">
+            <div>
+                <h4 class="font-bold mb-4">About</h4>
+                <ul>
+                    <li>About Us</li>
+                    <li>Team</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Documents</h4>
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Use</li>
+                    <li>Offer Agreement</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Support</h4>
+                <ul>
+                    <li>Help</li>
+                    <li>Contact Us</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Social Media</h4>
+                <ul>
+                    <li>Telegram</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
