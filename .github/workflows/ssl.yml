@@ -1,0 +1,17 @@
+name: SSL Certificate
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+
+jobs:
+  renew-cert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Certbot
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y certbot
+      - name: Generate Certificate
+        run: |
+          certbot certonly --standalone -d yourdomain.com
