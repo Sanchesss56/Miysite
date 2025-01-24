@@ -14,4 +14,4 @@ jobs:
           sudo apt-get install -y certbot
       - name: Generate Certificate
         run: |
-          certbot certonly --standalone -d yourdomain.com
+          certbot certonly --standalone -d superpsix.ru
